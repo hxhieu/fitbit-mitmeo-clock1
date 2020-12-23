@@ -1,9 +1,11 @@
 {
   "name": "mitmeo-clock1",
+  "description": "Mitmeo Clock 1",
   "version": "0.1.0",
   "devDependencies": {
     "@fitbit/sdk": "~4.2.1",
-    "@fitbit/sdk-cli": "^1.7.3"
+    "@fitbit/sdk-cli": "^1.7.3",
+    "fitbit-sdk-types": "^6.0.1"
   },
   "fitbit": {
     "appUUID": "29632e9b-5229-4d71-a719-c958f0cd1951",
@@ -19,6 +21,7 @@
     "defaultLanguage": "en-US"
   },
   "license": "UNLICENSED",
+  "main": "app/index.ts",
   "private": true,
   "scripts": {
     "build": "fitbit-build",
