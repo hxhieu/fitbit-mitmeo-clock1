@@ -1,1 +1,3 @@
-console.log('Hello world!');
+import { MainClock } from "./components/clock";
+
+new MainClock();
